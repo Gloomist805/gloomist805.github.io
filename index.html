@@ -1,385 +1,55 @@
-
-<html>
-  <head>
-    
-<meta charset="utf-8" >
-
-<meta name="generator" content="Gridea Pro 1.2.2">
-<title>一人行者</title>
-<meta name="description" content="欢迎来到伤心镇。
-RyanJ的博客，记录、随想、求索。">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://gloomist805.github.io/favicon.ico?v=1785035619">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://gloomist805.github.io/styles/main.css">
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
-
-
-
-  <meta name="description" content="欢迎来到伤心镇。
-RyanJ的博客，记录、随想、求索。">
-<link rel="canonical" href="https://gloomist805.github.io/">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"一人行者","url":"https://gloomist805.github.io","description":"欢迎来到伤心镇。\nRyanJ的博客，记录、随想、求索。","potentialAction":{"@type":"SearchAction","query-input":"required name=search_term_string","target":"https://gloomist805.github.io/search?q={search_term_string}"}}</script>
-<meta property="og:title" content="一人行者">
-<meta property="og:description" content="欢迎来到伤心镇。
-RyanJ的博客，记录、随想、求索。">
-<meta property="og:url" content="https://gloomist805.github.io/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="一人行者">
-<meta property="og:image" content="/images/avatar.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://gloomist805.github.io/">
-<meta name="twitter:title" content="一人行者">
-<meta name="twitter:description" content="欢迎来到伤心镇。
-RyanJ的博客，记录、随想、求索。">
-<meta name="twitter:image" content="/images/avatar.png">
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>一人行者</title>
+	<link rel="stylesheet" href="/styles/main.css">
+	<style>
+		body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; }
+		.site-header { text-align: center; padding: 40px 0; border-bottom: 1px solid #eee; }
+		.site-title { font-size: 2em; margin: 0; }
+		.site-description { color: #666; margin-top: 10px; }
+		.post { margin: 40px 0; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+		.post-title a { color: #333; text-decoration: none; }
+		.post-title a:hover { color: #0066cc; }
+		.post-meta { color: #999; font-size: 0.9em; margin-top: 5px; }
+	</style>
 </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://gloomist805.github.io">
-        <img class="avatar" src="https://gloomist805.github.io/images/avatar.png?v=1785035619" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://gloomist805.github.io">
-        <h1 class="site-title">一人行者</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/memos" class="menu purple-link">
-            闪念
-          </a>
-        
-      
-        
-          <a href="/links" class="menu purple-link">
-            友链
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        
-        
-<section class="post-item">
-    <div class="content">
-      <a href="/post/about/">
-        <h2 class="post-title">关于</h2>
-      </a>
-      <div class="post-abstract">
-        <!-- raw HTML omitted -->
-<h3 id="heading">关于我</h3>
-<p>嗨，我是RyanJ，一个大一工科生。</p>
-<p>目前在哈尔滨上学，在有感而发的时候写一些文字。</p>
-<h3 id="heading-1">关于我的博客</h3>
-<p>创建博客的原因在第一篇文章里有写。</p>
-<p>它原本是用hugo+Github pages搭建的，但是因为运行上的原因，在2026年7月被我“迁移”到了g&hellip;</p>
-
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2026-07-13</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="/tag/ji-lu/">
-                记录
-                
-                  ，
-                
-              </a>
-            
-              <a href="/tag/chuang-jian/">
-                创建
-                
-                  ，
-                
-              </a>
-            
-              <a href="/tag/gridea-pro/">
-                Gridea Pro
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="/post/xiang-sha-ni-de-ren-jin-tian-jiu-zai-xing-dong-liao/">
-        <h2 class="post-title">“想杀你的人今天就在行动了”</h2>
-      </a>
-      <div class="post-abstract">
-        <h1 id="heading">一、从抖音开始</h1>
-<p>今天刷抖音的时候偶然刷到这样一句话，好像是南京警察学院挂在墙上的：“<strong>想杀你的人今天就在行动了</strong>”。</p>
-<p><img src="/post-images/1783950818212100200_0.jpg" alt="" /></p>
-<p>我看到的第一反应是觉得有点搞笑。</p>
-<p>虽然这句话的本意是鼓励人努力行动，但是用词显然有些过激了（虽然是警校）。于是达到了相当荒诞的效果。</p>
-<p>继续想下去，从反内卷、反优&hellip;</p>
-
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2026-07-13</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="/tag/dou-yin/">
-                抖音
-                
-                  ，
-                
-              </a>
-            
-              <a href="/tag/zi-sheng/">
-                自省
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="/post/chang-chun-gui-dao-jiao-tongqing-gui-yu-di-tie-de-an-jian-hu-ren/">
-        <h2 class="post-title">长春轨道交通：轻轨与地铁的安检互认</h2>
-      </a>
-      <div class="post-abstract">
-        <h1 id="heading">一、轨道交通的换乘经历</h1>
-<h2 id="heading-1">长春三号线：轻轨？地铁？</h2>
-<p>2026年的元旦，我到长春找高中同学玩。</p>
-<p>12月31号下午，我们结束在净月潭的游玩，准备去欧亚卖场。途中搭乘3号线、1号线、6号线。<br />
-<img src="/post-images/1783950669410620200_0.jpg" alt="" /></p>
-<h2 id="heading-2">净月潭公园站</h2>
-<p>![](/post-images/1783950676970380400_0&hellip;.</p>
-
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2026-02-08</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="/tag/gui-dao-jiao-tong/">
-                轨道交通
-                
-                  ，
-                
-              </a>
-            
-              <a href="/tag/an-jian/">
-                安检
-                
-                  ，
-                
-              </a>
-            
-              <a href="/tag/guan-li/">
-                管理
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="/post/f1a-bu-zha-bi-zhanche-chong-yao-huan-shi-ren-chong-yao/">
-        <h2 class="post-title">F1阿布扎比站：车重要还是人重要？</h2>
-      </a>
-      <div class="post-abstract">
-        <h1 id="heading">前情提要</h1>
-<h2 id="f1">和F1的初次相遇</h2>
-<p>我已经记不清是什么时候第一次知道F1了。但是真正让我开始对F1有所了解的，是2022年周冠宇加入阿尔法·罗密欧的消息。当时我想方设法找渠道看F1，最后发现实在太卡了没办法看（好像是五星体育），只好作罢。</p>
-<p>在那以后，我对F1的关注就仅限于刷到相关的视频会点进去看看，直到《F1：狂飙飞车》的上映。<br />
-<img src="%E7%9C%8BF1%E7%94%B5%E5%BD%B1.jpg" alt="" /></p>
-<p>看完这部相当精&hellip;</p>
-
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2025-12-07</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="/tag/f1/">
-                F1
-                
-                  ，
-                
-              </a>
-            
-              <a href="/tag/wdc/">
-                WDC
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="/post/chu/">
-        <h2 class="post-title">初</h2>
-      </a>
-      <div class="post-abstract">
-        <p>本博客的第一篇文章。</p>
-<h1 id="heading">一、为什么写博客</h1>
-<h2 id="github">从github开始</h2>
-<p>故事要从这里开始说起：</p>
-<p>开始使用github之后不久，我在机缘巧合之下找到了阮一峰的<a href="https://github.com/ruanyf/weekly">科技爱好者周刊</a>。当时的我就像是在一片浩瀚的海域中发现宝藏的旅人。怀着激动的心情，我如饥似渴地阅读起来。我还记得那一期是[# 科技爱好者周刊（第 369 期）：&hellip;</p>
-
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2025-11-28</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="/tag/getting-started/">
-                入门
-                
-                  ，
-                
-              </a>
-            
-              <a href="/tag/ji-lu/">
-                记录
-                
-                  ，
-                
-              </a>
-            
-              <a href="/tag/chuang-jian/">
-                创建
-                
-                  ，
-                
-              </a>
-            
-              <a href="/tag/wang-zhan/">
-                网站
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
-      </div>
-
-      <div class="site-footer">
-  <div class="slogan">欢迎来到伤心镇。
-RyanJ的博客，记录、随想、求索。</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by Gridea Pro | <a class="rss" href="https://gloomist805.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
-  <script>console.log("\n%c ✦ Gridea Pro v1.2.2 %c · Theme: fly v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+<body>
+	<div class="fallback-banner" style="background:#fff3cd; color:#856404; border:1px solid #ffeeba; padding:12px 16px; margin:0 0 24px; border-radius:4px; font-size:14px;">⚠️ <strong>降级视图</strong>：主题模板渲染失败，当前为临时兜底页面，请检查主题配置或模板语法。</div>
+	<header class="site-header">
+		<h1 class="site-title">一人行者</h1>
+		<p class="site-description">欢迎来到伤心镇。
+RyanJ的博客，记录、随想、求索。</p>
+	</header>
+	<main class="site-main">
+			<article class="post">
+				<h2 class="post-title"><a href="/post/about/">关于</a></h2>
+				<div class="post-meta">2026-07-13</div>
+			</article>
+		
+			<article class="post">
+				<h2 class="post-title"><a href="/post/xiang-sha-ni-de-ren-jin-tian-jiu-zai-xing-dong-liao/">“想杀你的人今天就在行动了”</a></h2>
+				<div class="post-meta">2026-07-13</div>
+			</article>
+		
+			<article class="post">
+				<h2 class="post-title"><a href="/post/chang-chun-gui-dao-jiao-tongqing-gui-yu-di-tie-de-an-jian-hu-ren/">长春轨道交通：轻轨与地铁的安检互认</a></h2>
+				<div class="post-meta">2026-02-08</div>
+			</article>
+		
+			<article class="post">
+				<h2 class="post-title"><a href="/post/f1a-bu-zha-bi-zhanche-chong-yao-huan-shi-ren-chong-yao/">F1阿布扎比站：车重要还是人重要？</a></h2>
+				<div class="post-meta">2025-12-07</div>
+			</article>
+		
+			<article class="post">
+				<h2 class="post-title"><a href="/post/chu/">初</a></h2>
+				<div class="post-meta">2025-11-28</div>
+			</article>
+		</main>
+	
+	<footer style="text-align: center; padding: 40px 0; color: #999;">Powered by Gridea Pro</footer>
 </body>
 </html>
